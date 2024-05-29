@@ -658,6 +658,10 @@ animation: sql 3s;
   margin-right: 0;
 }
 
+.profileM{
+  width: 100%;
+  max-width: 290px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1025px) {
