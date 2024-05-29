@@ -141,8 +141,8 @@ body{
         border: none;
         border-radius: 15px;
         border: solid #fb547c;
-        background: transparent;
-        color: white;
+        background: white;
+        color: #fb547c;
         cursor: pointer;
       }
 
@@ -158,6 +158,9 @@ body{
         transition: color 0.3s ease-in-out;
       }
     
+      #contactMe{
+        background-color: white;
+      }
 }
 
 @media (min-width: 431px) and (max-width: 768px) {
@@ -202,13 +205,14 @@ body{
         border: none;
         border-radius: 15px;
         border: solid #fb547c;
-        background: transparent;
-        color: white;
+        background: white;
+        color: #fb547c;
         cursor: pointer;
       }
 
       #contactMe{
         color: #ff3838;
+        background-color: white;
       }
 }
 
@@ -591,6 +595,8 @@ font-family: Roboto;
 
 /*=================================================================================================*/
 @media (max-width: 430px) {
+
+  
 
   .primaryMenu button{
     padding: 8px 15px;
