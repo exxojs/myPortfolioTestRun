@@ -148,7 +148,8 @@ body{
 
       #contactMe{
         margin-left: -4px;
-        background-color: #fc565ea2;
+        background-color: white;
+        color: #fb547c;
       }
 
       .nav-list li a {
