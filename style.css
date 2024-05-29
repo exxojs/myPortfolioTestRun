@@ -405,7 +405,7 @@ width: 90%;
 }
 
 #Phone, #Emails, #Location, #Birthdate {
-margin-top: 16px;
+margin-top: 20px;
 }
 
 #Phone p, #Emails p, #Location p, #Birthdate p {
@@ -415,7 +415,7 @@ font-size: 15px;
 
 #Phone h3, #Emails h3, #Location h3, #Birthdate h3 {
 color: var(--primary);
-font-size: 20px;
+font-size: 18px;
 }
 
 /*========================================================================================================*/
