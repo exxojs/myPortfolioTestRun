@@ -633,8 +633,8 @@ animation: sql 3s;
 
 .contentBox{
   order: 1;
-  width: 90%;
-  max-width: 290px;
+  width: 100%;
+  max-width: 260px;
   
 }
 
