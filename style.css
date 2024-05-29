@@ -405,12 +405,12 @@ width: 90%;
 }
 
 #Phone, #Emails, #Location, #Birthdate {
-margin-top: 20px;
+margin-top: 16px;
 }
 
 #Phone p, #Emails p, #Location p, #Birthdate p {
 color: #34495e;
-font-size: 16px;
+font-size: 15px;
 }
 
 #Phone h3, #Emails h3, #Location h3, #Birthdate h3 {
