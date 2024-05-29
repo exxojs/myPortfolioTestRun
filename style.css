@@ -410,7 +410,7 @@ margin-top: 20px;
 
 #Phone p, #Emails p, #Location p, #Birthdate p {
 color: #34495e;
-font-size: 15px;
+font-size: 16px;
 }
 
 #Phone h3, #Emails h3, #Location h3, #Birthdate h3 {
@@ -601,137 +601,232 @@ animation: sql 3s;
 /*=================================================================================================*/
 @media (max-width: 430px) {
 
-#contactMe{
-  margin-left: -4px;
-  background: white;
-  color: #fb547c;
-}
-
-.primaryMenu button{
-  padding: 8px 15px;
-    border-radius: 10px;
-    border: 0;
-    background-color: #ff3737;
-    letter-spacing: 1.5px;
-    font-size: 15px;
-    transition: all 0.3s ease;
-    box-shadow: #df1f1f 0px 10px 0px 0px;
-    color: hsl(0, 0%, 100%);
-    cursor: pointer;
-    margin: 12px;
-    margin-bottom: 20px;
+  #contactMe{
+    margin-left: -4px;
+    background: white;
+    color: #fb547c;
+  }
+  
+  .primaryMenu button{
+    padding: 8px 15px;
+      border-radius: 10px;
+      border: 0;
+      background-color: #ff3737;
+      letter-spacing: 1.5px;
+      font-size: 15px;
+      transition: all 0.3s ease;
+      box-shadow: #df1f1f 0px 10px 0px 0px;
+      color: hsl(0, 0%, 100%);
+      cursor: pointer;
+      margin: 12px;
+      margin-bottom: 20px;
+      
+    }
+  
+  .contenigger{
+    flex-flow: column;
+  }
+  
+  .profileM{
+    order: 2;
+  }
+  
+  .contentBox{
+    order: 1;
+    width: 100%;
+    max-width: 290px;
     
   }
-
-.contenigger{
-  flex-flow: column;
-}
-
-.profileM{
-  order: 2;
-}
-
-.contentBox{
-  order: 1;
-  width: 100%;
-  max-width: 290px;
   
-}
-
-.skillsBox{
-  flex-flow: column;
-}
-
-.frontEnd{
-  margin-right: 0px;
-}
-
-.backEnd{
-  max-width: 300px;
-}
-
-.skillsBox h1{
-  margin-left: 25%;
-}
-
-.skillsBox ul{
-  margin-right: 0;
-}
-
-.profileM{
-  width: 100%;
-  max-width: 260px;
-}
-}
-
-@media (min-width: 768px) and (max-width: 1025px) {
-
-.contenigger{
-  flex-flow: row;
-}
-
-.profileM{
-  order: 1;
-}
-
-.contentBox{
-  order: 2;
-  width: 100%;;
+  .skillsBox{
+    flex-flow: column;
+  }
   
-}
-
-.skillsBox{
-  flex-flow: column;
-}
-
-.frontEnd{
-  margin-right: 0px;
-}
-
-.backEnd{
-  max-width: 300px;
-}
-
-.skillsBox h1{
-  margin-left: 25%;
-}
-
-.skillsBox ul{
-  margin-right: 0;
-}
-
-#contactMe{
-  background-color: white;
-}
-
-}
-
-@media (min-width: 1024px)  {
-
-
-.profileM{
-  order: 1;
-}
-
-.contentBox{
-  order: 2;
-  width: 100%;
+  .frontEnd{
+    margin-right: 0px;
+  }
   
-}
+  .backEnd{
+    max-width: 300px;
+  }
+  
+  .skillsBox h1{
+    margin-left: 25%;
+  }
+  
+  .skillsBox ul{
+    margin-right: 0;
+  }
+  
+  .profileM{
+    width: 100%;
+    max-width: 265px;
+  }
+/*=================== PROJECT =========================*/
 
-.skillsBox{
-  flex-flow: row;
 }
+  
+  @media (min-width: 768px) and (max-width: 1025px) {
+  
+  .contenigger{
+    flex-flow: row;
+  }
+  
+  .profileM{
+    order: 1;
+  }
+  
+  .contentBox{
+    order: 2;
+    width: 100%;;
+    
+  }
+  
+  .skillsBox{
+    flex-flow: column;
+  }
+  
+  .frontEnd{
+    margin-right: 0px;
+  }
+  
+  .backEnd{
+    max-width: 300px;
+  }
+  
+  .skillsBox h1{
+    margin-left: 25%;
+  }
+  
+  .skillsBox ul{
+    margin-right: 0;
+  }
+  
+  #contactMe{
+    background-color: white;
+  }
+  
+  }
+  
+  @media (min-width: 1024px)  {
+  
+  
+  .profileM{
+    order: 1;
+  }
+  
+  .contentBox{
+    order: 2;
+    width: 100%;
+    
+  }
+  
+  .skillsBox{
+    flex-flow: row;
+  }
+  
+  .backEnd{
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  
+  
+  .skillsBox ul{
+    margin-right: 0;
+  }
 
-.backEnd{
-  max-width: 400px;
+  /*==================*/
+
+
+  }
+
+/*========================================================================*/
+.proj {
+  display: flex;
   width: 100%;
+  max-width: 800px;
+  padding: 16px;
+  padding-top: -10px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  flex-flow: row wrap;
 }
 
-
-
-.skillsBox ul{
-  margin-right: 0;
+.major {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  display: flex;
+  flex-flow: column;
+  background-color: #4AD4FF;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #18BCEE 0px 10px 0px 0px;
+  margin: 16px;
+  transition: all 1s ease;
 }
 
+.major h2 {
+  color: white;
+  text-align: center;
+}
+
+.major:hover {
+  box-shadow: 0 1px 28px #2b07ca, 0 1px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.major:active {
+  background-color: #4AD4FF;
+  box-shadow: #4AD4FF 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+.minor {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  border-radius: 10px;
+  background-color: #ff3737;
+  padding: 20px;
+  width: 100%;
+  max-width: 240px;
+  margin: 16px;
+  box-shadow: #df1f1f 0px 10px 0px 0px;
+  transition: all 1s ease;
+}
+
+.minor h2 {
+  color: white;
+  text-align: center;
+}
+
+.minor:hover {
+  box-shadow: 0 1px 28px #18BCEE, 0 1px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.minor:active {
+  background-color: #EBECEF;
+  box-shadow: #979ba7 0px 0px 0px 0px;
+  transform: translateY(5px);
+  transition: 200ms;
+}
+
+/* Mobile viewport styles */
+@media only screen and (max-width: 430px) {
+  .proj {
+    flex-flow: column;
+    align-items: center;
+  }
+  .major, .minor {
+    max-width: 260px;
+  }
+  .minor {
+    margin-left: 16px;
+  }
+  .major h2, .minor h2 {
+    font-size: 18px;
+  }
 }
