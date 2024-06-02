@@ -18,3 +18,20 @@ function goPageTwo(){
   pageTwo.style.display = "flex";
 
 }
+
+const goMinorAlbum = document.querySelector("minor")
+const goBackProj = document.querySelector("niggaGoBack")
+
+const minorAlbum = document.querySelector(".minorAlbum")
+const albumBtn = document.querySelector(".albumButtons")
+
+function goMinor(){
+  minorAlbum.style.display = "flex";
+  albumBtn.style.display = "none";
+}
+
+function goBackProjPage(){
+  minorAlbum.style.display = "none";
+  //majorAlbum.style.display = "none";
+  albumBtn.style.display = "flex";
+}

@@ -754,6 +754,18 @@ animation: sql 3s;
   flex-flow: row wrap;
 }
 
+.albumButtons{
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+  padding: 16px;
+  margin-top: -20px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  flex-flow: row wrap;
+}
+
 .major {
   font-family: 'Be Vietnam Pro', sans-serif;
   display: flex;
@@ -820,6 +832,10 @@ animation: sql 3s;
     flex-flow: column;
     align-items: center;
   }
+  .minorAlbum{
+    flex-flow: column;
+    align-items: center;
+  }
   .major, .minor {
     max-width: 260px;
   }
@@ -829,4 +845,65 @@ animation: sql 3s;
   .major h2, .minor h2 {
     font-size: 18px;
   }
+}
+
+/*+=====================================================*/
+
+.minorNav button{
+  padding: 8px 8px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #ffffff;
+    letter-spacing: 1.5px;
+    font-size: 8px;
+    transition: all 0.3s ease;
+    color: #ff3737;
+    cursor: pointer;
+    margin: 12px;
+    margin-bottom: 20px;
+    border: solid #ff3838 2px;
+}  
+
+.minorNav button:hover{
+  box-shadow: #df1f1f 0px 7px 0px 0px;
+  background-color: #ff3737;
+  color: white;
+}
+
+.minorNav button:active{
+  box-shadow: #ff3838 0px 7px 0px 0px;
+}
+
+.minornav{
+  display: flex;
+  flex-flow: row;
+}
+
+.minorAlbum{
+  display: none;
+  width: 100%;
+  max-width: 800px;
+  padding: 16px;
+  padding-top: -10px;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  flex-flow: row wrap;
+  transition: all 1s;
+}
+
+.calculator {
+  border: solid; 
+  background-color: aliceblue; 
+  font-family: Be Vietnam Pro; 
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.bday {
+  border: solid; 
+  background-color: rgba(255, 99, 71, 0.493); 
+  font-family: Be Vietnam Pro; 
+  padding: 16px;
+  margin-bottom: 16px;
 }
